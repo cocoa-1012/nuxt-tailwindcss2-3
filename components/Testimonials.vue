@@ -4,7 +4,7 @@
         <SectionHeader text="Testimonials" />
 
         <!-- testimonial card -->
-        <div v-for="testimonial in testimonials" :key="testimonial.id" class="md:flex items-start justify-between gap-16 rounded-lg shadow-lg border border-slate-200 font-publicSans p-6 py-8 md:px-12 lg:px-16 m-4 mb-16">
+        <div v-for="testimonial in testimonials" :key="testimonial.id" class="md:flex items-start justify-between gap-16 rounded-lg shadow-lg border shadow-indigo-100  border-slate-200 font-publicSans p-6 py-8 md:px-12 lg:px-16 m-4 mb-16">
             <div class="flex flex-col">
                 <div class="text-8xl font-italic text-indigo-400 opacity-50 h-20">
                     &ldquo;
